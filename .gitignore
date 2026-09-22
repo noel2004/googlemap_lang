@@ -1,0 +1,29 @@
+# Chrome-generated ruleset caches
+_metadata/
+
+# Packaged extensions and private signing keys
+*.crx
+*.zip
+*.pem
+*.key
+
+# Build output and development dependencies
+/dist/
+/build/
+node_modules/
+coverage/
+*.log
+
+# Local environment settings
+.env
+.env.*
+!.env.example
+
+# Editor and operating-system files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
