@@ -1,0 +1,110 @@
+{
+  "uiLocale": {
+    "message": "zh-TW"
+  },
+  "extensionName": {
+    "message": "Your lang for google map"
+  },
+  "extensionDescription": {
+    "message": "選擇 Google 地圖的語言，可暫時套用至單一分頁，或儲存為預設語言。"
+  },
+  "popupIntro": {
+    "message": "選擇此分頁使用的語言。"
+  },
+  "quickLanguages": {
+    "message": "常用語言"
+  },
+  "more": {
+    "message": "更多"
+  },
+  "back": {
+    "message": "返回"
+  },
+  "allLanguages": {
+    "message": "所有語言"
+  },
+  "searchLanguages": {
+    "message": "搜尋語言"
+  },
+  "noResults": {
+    "message": "找不到符合的語言。"
+  },
+  "persistent": {
+    "message": "永久套用"
+  },
+  "persistentHint": {
+    "message": "將接下來選擇的語言儲存為日後開啟地圖時的預設語言。"
+  },
+  "temporaryHint": {
+    "message": "僅限此分頁，直到關閉分頁或重新啟動 Chrome。"
+  },
+  "settings": {
+    "message": "設定"
+  },
+  "settingsTitle": {
+    "message": "Your lang for google map — 設定"
+  },
+  "useDefault": {
+    "message": "使用預設語言"
+  },
+  "notMaps": {
+    "message": "請開啟 Google 地圖以變更此分頁的語言。"
+  },
+  "openMaps": {
+    "message": "開啟 Google 地圖"
+  },
+  "currentTemporary": {
+    "message": "此分頁：$1"
+  },
+  "currentDefault": {
+    "message": "預設：$1"
+  },
+  "applied": {
+    "message": "已將語言套用至此分頁。"
+  },
+  "savedDefault": {
+    "message": "已儲存預設語言並套用至此分頁。"
+  },
+  "applyError": {
+    "message": "無法套用語言。請確認此分頁仍開啟 Google 地圖，然後再試一次。"
+  },
+  "loadError": {
+    "message": "無法載入設定。請重新載入擴充功能後再試一次。"
+  },
+  "settingsIntro": {
+    "message": "選擇地圖的預設語言，以及選單中顯示的常用語言。"
+  },
+  "defaultLanguage": {
+    "message": "預設語言"
+  },
+  "defaultHint": {
+    "message": "地圖載入時使用此語言，但已暫時選擇其他語言的分頁除外。已開啟的分頁會在下次載入時更新。"
+  },
+  "shortcutsHint": {
+    "message": "依選單順序選擇最多 6 種語言。選擇「無」可留空。所有語言仍可從「更多」選取。"
+  },
+  "shortcutSlot": {
+    "message": "常用語言 $1"
+  },
+  "none": {
+    "message": "無"
+  },
+  "saveSettings": {
+    "message": "儲存設定"
+  },
+  "settingsSaved": {
+    "message": "已儲存設定。"
+  },
+  "saveError": {
+    "message": "無法儲存設定。請再試一次。"
+  },
+  "interfaceLanguageHint": {
+    "message": "此介面使用 Chrome 的顯示語言，與地圖選擇的語言無關。不支援的介面語言會使用英文。"
+  },
+  "privacyPolicy": {
+    "message": "隱私權政策"
+  },
+  "support": {
+    "message": "支援"
+  }
+}

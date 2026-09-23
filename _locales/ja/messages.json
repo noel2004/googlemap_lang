@@ -1,0 +1,110 @@
+{
+  "uiLocale": {
+    "message": "ja"
+  },
+  "extensionName": {
+    "message": "Your lang for google map"
+  },
+  "extensionDescription": {
+    "message": "Google マップの言語を、タブごとに一時的に変更したり、既定の言語として保存したりできます。"
+  },
+  "popupIntro": {
+    "message": "このタブで使う言語を選択"
+  },
+  "quickLanguages": {
+    "message": "よく使う言語"
+  },
+  "more": {
+    "message": "その他"
+  },
+  "back": {
+    "message": "戻る"
+  },
+  "allLanguages": {
+    "message": "すべての言語"
+  },
+  "searchLanguages": {
+    "message": "言語を検索"
+  },
+  "noResults": {
+    "message": "該当する言語がありません。"
+  },
+  "persistent": {
+    "message": "選択を保存"
+  },
+  "persistentHint": {
+    "message": "次に選ぶ言語を、今後のマップの既定の言語として保存します。"
+  },
+  "temporaryHint": {
+    "message": "このタブを閉じるか、Chrome を再起動するまで有効です。"
+  },
+  "settings": {
+    "message": "設定"
+  },
+  "settingsTitle": {
+    "message": "Your lang for google map — 設定"
+  },
+  "useDefault": {
+    "message": "既定に戻す"
+  },
+  "notMaps": {
+    "message": "このタブの言語を変更するには、Google マップを開いてください。"
+  },
+  "openMaps": {
+    "message": "Google マップを開く"
+  },
+  "currentTemporary": {
+    "message": "このタブ：$1"
+  },
+  "currentDefault": {
+    "message": "既定：$1"
+  },
+  "applied": {
+    "message": "このタブに言語を適用しました。"
+  },
+  "savedDefault": {
+    "message": "既定の言語を保存し、このタブに適用しました。"
+  },
+  "applyError": {
+    "message": "言語を適用できませんでした。このタブで Google マップが開いていることを確認して、もう一度お試しください。"
+  },
+  "loadError": {
+    "message": "設定を読み込めませんでした。拡張機能を再読み込みして、もう一度お試しください。"
+  },
+  "settingsIntro": {
+    "message": "マップの既定の言語と、メニューに表示するよく使う言語を選びます。"
+  },
+  "defaultLanguage": {
+    "message": "既定の言語"
+  },
+  "defaultHint": {
+    "message": "タブに一時的な選択がない場合、マップの読み込み時に適用されます。開いているタブには、次の読み込み時に反映されます。"
+  },
+  "shortcutsHint": {
+    "message": "メニューの表示順に、最大6言語を選べます。「なし」を選ぶと空欄になります。すべての言語は「その他」から選べます。"
+  },
+  "shortcutSlot": {
+    "message": "言語 $1"
+  },
+  "none": {
+    "message": "なし"
+  },
+  "saveSettings": {
+    "message": "設定を保存"
+  },
+  "settingsSaved": {
+    "message": "設定を保存しました。"
+  },
+  "saveError": {
+    "message": "設定を保存できませんでした。もう一度お試しください。"
+  },
+  "interfaceLanguageHint": {
+    "message": "この画面の言語は、マップで選んだ言語ではなく Chrome の表示言語に従います。未対応の言語では英語で表示されます。"
+  },
+  "privacyPolicy": {
+    "message": "プライバシーポリシー"
+  },
+  "support": {
+    "message": "サポート"
+  }
+}

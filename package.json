@@ -1,0 +1,11 @@
+{
+  "name": "googlemap-lang",
+  "version": "1.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test tests/*.test.js",
+    "test:browser": "node tests/browser.mjs",
+    "build": "python3 scripts/build.py"
+  }
+}

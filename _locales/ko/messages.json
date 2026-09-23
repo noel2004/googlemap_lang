@@ -1,0 +1,110 @@
+{
+  "uiLocale": {
+    "message": "ko"
+  },
+  "extensionName": {
+    "message": "Your lang for google map"
+  },
+  "extensionDescription": {
+    "message": "Google 지도의 언어를 현재 탭에 임시로 적용하거나 기본 언어로 저장하세요."
+  },
+  "popupIntro": {
+    "message": "이 탭에서 사용할 언어를 선택하세요."
+  },
+  "quickLanguages": {
+    "message": "자주 쓰는 언어"
+  },
+  "more": {
+    "message": "더 보기"
+  },
+  "back": {
+    "message": "뒤로"
+  },
+  "allLanguages": {
+    "message": "모든 언어"
+  },
+  "searchLanguages": {
+    "message": "언어 검색"
+  },
+  "noResults": {
+    "message": "일치하는 언어가 없습니다."
+  },
+  "persistent": {
+    "message": "선택 저장"
+  },
+  "persistentHint": {
+    "message": "다음에 선택하는 언어를 이후 지도 방문 시 사용할 기본 언어로 저장합니다."
+  },
+  "temporaryHint": {
+    "message": "이 탭을 닫거나 Chrome을 다시 시작할 때까지 적용됩니다."
+  },
+  "settings": {
+    "message": "설정"
+  },
+  "settingsTitle": {
+    "message": "Your lang for google map — 설정"
+  },
+  "useDefault": {
+    "message": "기본 언어 사용"
+  },
+  "notMaps": {
+    "message": "이 탭의 언어를 변경하려면 Google 지도를 여세요."
+  },
+  "openMaps": {
+    "message": "Google 지도 열기"
+  },
+  "currentTemporary": {
+    "message": "이 탭: $1"
+  },
+  "currentDefault": {
+    "message": "기본 언어: $1"
+  },
+  "applied": {
+    "message": "이 탭에 언어를 적용했습니다."
+  },
+  "savedDefault": {
+    "message": "기본 언어를 저장하고 이 탭에 적용했습니다."
+  },
+  "applyError": {
+    "message": "언어를 적용하지 못했습니다. 이 탭에 Google 지도가 열려 있는지 확인한 후 다시 시도하세요."
+  },
+  "loadError": {
+    "message": "설정을 불러오지 못했습니다. 확장 프로그램을 새로고침한 후 다시 시도하세요."
+  },
+  "settingsIntro": {
+    "message": "지도의 기본 언어와 메뉴에 표시할 자주 쓰는 언어를 선택하세요."
+  },
+  "defaultLanguage": {
+    "message": "기본 언어"
+  },
+  "defaultHint": {
+    "message": "탭에 임시 선택이 없으면 지도를 불러올 때 적용됩니다. 이미 열린 탭은 다음에 페이지를 불러올 때 변경됩니다."
+  },
+  "shortcutsHint": {
+    "message": "메뉴에 표시할 순서대로 최대 6개 언어를 선택하세요. 비워 두려면 “없음”을 선택하세요. 모든 언어는 “더 보기”에서 선택할 수 있습니다."
+  },
+  "shortcutSlot": {
+    "message": "언어 $1"
+  },
+  "none": {
+    "message": "없음"
+  },
+  "saveSettings": {
+    "message": "설정 저장"
+  },
+  "settingsSaved": {
+    "message": "설정을 저장했습니다."
+  },
+  "saveError": {
+    "message": "설정을 저장하지 못했습니다. 다시 시도하세요."
+  },
+  "interfaceLanguageHint": {
+    "message": "이 화면은 지도에서 선택한 언어와 관계없이 Chrome의 표시 언어를 따릅니다. 지원하지 않는 언어는 영어로 표시됩니다."
+  },
+  "privacyPolicy": {
+    "message": "개인정보 처리방침"
+  },
+  "support": {
+    "message": "지원"
+  }
+}

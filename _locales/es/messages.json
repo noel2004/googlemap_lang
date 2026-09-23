@@ -1,0 +1,110 @@
+{
+  "uiLocale": {
+    "message": "es"
+  },
+  "extensionName": {
+    "message": "Your lang for google map"
+  },
+  "extensionDescription": {
+    "message": "Elige un idioma para Google Maps, solo para una pestaña o como idioma predeterminado."
+  },
+  "popupIntro": {
+    "message": "Elige un idioma para esta pestaña."
+  },
+  "quickLanguages": {
+    "message": "Idiomas frecuentes"
+  },
+  "more": {
+    "message": "Más"
+  },
+  "back": {
+    "message": "Volver"
+  },
+  "allLanguages": {
+    "message": "Todos los idiomas"
+  },
+  "searchLanguages": {
+    "message": "Buscar idiomas"
+  },
+  "noResults": {
+    "message": "No se encontraron idiomas."
+  },
+  "persistent": {
+    "message": "Guardar selección"
+  },
+  "persistentHint": {
+    "message": "Guarda la próxima selección como predeterminada para futuras visitas a Maps."
+  },
+  "temporaryHint": {
+    "message": "Solo esta pestaña, hasta cerrarla o reiniciar Chrome."
+  },
+  "settings": {
+    "message": "Configuración"
+  },
+  "settingsTitle": {
+    "message": "Your lang for google map — Configuración"
+  },
+  "useDefault": {
+    "message": "Usar predeterminado"
+  },
+  "notMaps": {
+    "message": "Abre Google Maps para cambiar el idioma de esta pestaña."
+  },
+  "openMaps": {
+    "message": "Abrir Google Maps"
+  },
+  "currentTemporary": {
+    "message": "Esta pestaña: $1"
+  },
+  "currentDefault": {
+    "message": "Predeterminado: $1"
+  },
+  "applied": {
+    "message": "Idioma aplicado a esta pestaña."
+  },
+  "savedDefault": {
+    "message": "Idioma predeterminado guardado y aplicado a esta pestaña."
+  },
+  "applyError": {
+    "message": "No se pudo aplicar el idioma. Comprueba que esta pestaña sigue en Google Maps e inténtalo de nuevo."
+  },
+  "loadError": {
+    "message": "No se pudo cargar la configuración. Recarga la extensión e inténtalo de nuevo."
+  },
+  "settingsIntro": {
+    "message": "Elige el idioma predeterminado de Maps y los idiomas que aparecen en el menú."
+  },
+  "defaultLanguage": {
+    "message": "Idioma predeterminado"
+  },
+  "defaultHint": {
+    "message": "Se usa al cargar Maps, salvo que la pestaña tenga una selección temporal. Las pestañas abiertas cambian al volver a cargar la página."
+  },
+  "shortcutsHint": {
+    "message": "Elige hasta 6 idiomas, en el orden del menú. Elige «Ninguno» para dejar un espacio vacío. Todos los idiomas siguen disponibles en Más."
+  },
+  "shortcutSlot": {
+    "message": "Idioma $1"
+  },
+  "none": {
+    "message": "Ninguno"
+  },
+  "saveSettings": {
+    "message": "Guardar configuración"
+  },
+  "settingsSaved": {
+    "message": "Configuración guardada."
+  },
+  "saveError": {
+    "message": "No se pudo guardar la configuración. Inténtalo de nuevo."
+  },
+  "interfaceLanguageHint": {
+    "message": "Esta interfaz usa el idioma de Chrome, independientemente del elegido para Maps. Los idiomas de interfaz no disponibles usan inglés."
+  },
+  "privacyPolicy": {
+    "message": "Política de privacidad"
+  },
+  "support": {
+    "message": "Soporte"
+  }
+}

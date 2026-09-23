@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Your lang for google map</title>
+  <link rel="stylesheet" href="styles.css">
+  <script type="module" src="popup.js"></script>
+</head>
+<body class="popup">
+  <header class="popup-header">
+    <img class="brand-mark" src="icons/icon48.png" width="42" height="42" alt="">
+    <div><h1 data-i18n="extensionName"></h1><p class="muted" data-i18n="popupIntro"></p></div>
+  </header>
+  <main>
+    <p id="current" class="current" aria-live="polite"></p>
+    <div id="not-maps" class="notice" hidden>
+      <p data-i18n="notMaps"></p>
+      <button id="open-maps" class="text-button" data-i18n="openMaps"></button>
+    </div>
+    <section id="shortcuts-view" aria-labelledby="shortcuts-heading">
+      <h2 id="shortcuts-heading" class="eyebrow" data-i18n="quickLanguages"></h2>
+      <div id="shortcuts" class="language-list"></div>
+      <button id="more" class="more-button" aria-controls="all-view" aria-expanded="false"><span data-i18n="more"></span><span aria-hidden="true">→</span></button>
+    </section>
+    <section id="all-view" aria-labelledby="all-heading" hidden>
+      <div class="level-heading"><button id="back" class="text-button"><span aria-hidden="true">← </span><span data-i18n="back"></span></button><h2 id="all-heading" data-i18n="allLanguages"></h2></div>
+      <label class="sr-only" for="language-search" data-i18n="searchLanguages"></label>
+      <input id="language-search" type="search" data-i18n-placeholder="searchLanguages" autocomplete="off">
+      <div id="all-languages" class="language-list full-list"></div>
+      <p id="no-results" class="muted" data-i18n="noResults" hidden></p>
+    </section>
+    <div class="persistence">
+      <label class="check-label"><input id="persistent" type="checkbox" autocomplete="off" aria-describedby="persistence-hint"><span data-i18n="persistent"></span></label>
+      <p id="persistence-hint" class="muted"></p>
+    </div>
+    <p id="status" class="status" role="status"></p>
+  </main>
+  <footer class="popup-footer">
+    <button id="settings" class="text-button" data-i18n="settings"></button>
+    <button id="use-default" class="text-button" data-i18n="useDefault" hidden></button>
+  </footer>
+</body>
+</html>

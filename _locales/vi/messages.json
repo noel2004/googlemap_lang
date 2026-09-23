@@ -1,0 +1,110 @@
+{
+  "uiLocale": {
+    "message": "vi"
+  },
+  "extensionName": {
+    "message": "Your lang for google map"
+  },
+  "extensionDescription": {
+    "message": "Chọn ngôn ngữ cho Google Maps, tạm thời trong một thẻ hoặc lưu làm mặc định."
+  },
+  "popupIntro": {
+    "message": "Chọn ngôn ngữ cho thẻ này."
+  },
+  "quickLanguages": {
+    "message": "Ngôn ngữ thường dùng"
+  },
+  "more": {
+    "message": "Thêm"
+  },
+  "back": {
+    "message": "Quay lại"
+  },
+  "allLanguages": {
+    "message": "Tất cả ngôn ngữ"
+  },
+  "searchLanguages": {
+    "message": "Tìm ngôn ngữ"
+  },
+  "noResults": {
+    "message": "Không tìm thấy ngôn ngữ."
+  },
+  "persistent": {
+    "message": "Lưu lựa chọn"
+  },
+  "persistentHint": {
+    "message": "Lưu ngôn ngữ bạn chọn tiếp theo làm mặc định cho những lần mở Maps sau."
+  },
+  "temporaryHint": {
+    "message": "Chỉ áp dụng cho thẻ này, đến khi đóng thẻ hoặc khởi động lại Chrome."
+  },
+  "settings": {
+    "message": "Cài đặt"
+  },
+  "settingsTitle": {
+    "message": "Your lang for google map — Cài đặt"
+  },
+  "useDefault": {
+    "message": "Dùng mặc định"
+  },
+  "notMaps": {
+    "message": "Mở Google Maps để đổi ngôn ngữ cho thẻ này."
+  },
+  "openMaps": {
+    "message": "Mở Google Maps"
+  },
+  "currentTemporary": {
+    "message": "Thẻ này: $1"
+  },
+  "currentDefault": {
+    "message": "Mặc định: $1"
+  },
+  "applied": {
+    "message": "Đã áp dụng ngôn ngữ cho thẻ này."
+  },
+  "savedDefault": {
+    "message": "Đã lưu ngôn ngữ mặc định và áp dụng cho thẻ này."
+  },
+  "applyError": {
+    "message": "Không thể áp dụng ngôn ngữ. Hãy kiểm tra thẻ này vẫn đang mở Google Maps rồi thử lại."
+  },
+  "loadError": {
+    "message": "Không thể tải cài đặt. Hãy tải lại tiện ích rồi thử lại."
+  },
+  "settingsIntro": {
+    "message": "Chọn ngôn ngữ mặc định cho Maps và các ngôn ngữ thường dùng trong trình đơn."
+  },
+  "defaultLanguage": {
+    "message": "Ngôn ngữ mặc định"
+  },
+  "defaultHint": {
+    "message": "Được dùng khi tải Maps, trừ khi thẻ có lựa chọn tạm thời. Các thẻ đang mở sẽ cập nhật khi tải lại trang."
+  },
+  "shortcutsHint": {
+    "message": "Chọn tối đa 6 ngôn ngữ theo thứ tự trình đơn. Chọn “Không có” để để trống. Bạn vẫn có thể chọn mọi ngôn ngữ trong mục Thêm."
+  },
+  "shortcutSlot": {
+    "message": "Ngôn ngữ $1"
+  },
+  "none": {
+    "message": "Không có"
+  },
+  "saveSettings": {
+    "message": "Lưu cài đặt"
+  },
+  "settingsSaved": {
+    "message": "Đã lưu cài đặt."
+  },
+  "saveError": {
+    "message": "Không thể lưu cài đặt. Vui lòng thử lại."
+  },
+  "interfaceLanguageHint": {
+    "message": "Giao diện này dùng ngôn ngữ hiển thị của Chrome, độc lập với ngôn ngữ Maps bạn chọn. Ngôn ngữ giao diện chưa được hỗ trợ sẽ dùng tiếng Anh."
+  },
+  "privacyPolicy": {
+    "message": "Chính sách quyền riêng tư"
+  },
+  "support": {
+    "message": "Hỗ trợ"
+  }
+}

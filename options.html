@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Your lang for google map — Settings</title>
+  <link rel="stylesheet" href="styles.css">
+  <script type="module" src="options.js"></script>
+</head>
+<body class="options" data-title="settingsTitle">
+  <main class="settings-page">
+    <header class="settings-header"><img class="brand-mark" src="icons/icon48.png" width="42" height="42" alt=""><div><p class="eyebrow" data-i18n="extensionName"></p><h1 data-i18n="settings"></h1></div></header>
+    <p class="intro" data-i18n="settingsIntro"></p>
+    <form id="settings-form">
+      <fieldset id="settings-fields" disabled>
+        <section class="card">
+          <label for="default-language" class="section-label" data-i18n="defaultLanguage"></label>
+          <p class="muted" id="default-hint" data-i18n="defaultHint"></p>
+          <select id="default-language" aria-describedby="default-hint"></select>
+        </section>
+        <section class="card">
+          <h2 data-i18n="quickLanguages"></h2>
+          <p class="muted" id="shortcuts-hint" data-i18n="shortcutsHint"></p>
+          <div id="shortcut-slots" class="shortcut-slots" aria-describedby="shortcuts-hint"></div>
+        </section>
+        <div class="save-row"><button type="submit" id="save" class="primary" data-i18n="saveSettings"></button></div>
+      </fieldset>
+    </form>
+    <p id="status" class="status" role="status"></p>
+    <p class="locale-note" data-i18n="interfaceLanguageHint"></p>
+    <footer class="publisher-footer">
+      <span>Stringon Inc.</span>
+      <a href="privacy.html" target="_blank" rel="noopener" data-i18n="privacyPolicy"></a>
+      <a href="mailto:support@stringon.co.jp" data-i18n="support"></a>
+    </footer>
+  </main>
+</body>
+</html>

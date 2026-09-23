@@ -1,0 +1,110 @@
+{
+  "uiLocale": {
+    "message": "en"
+  },
+  "extensionName": {
+    "message": "Your lang for google map"
+  },
+  "extensionDescription": {
+    "message": "Choose a language for Google Maps, temporarily for one tab or as your saved default."
+  },
+  "popupIntro": {
+    "message": "Choose a language for this tab."
+  },
+  "quickLanguages": {
+    "message": "Quick languages"
+  },
+  "more": {
+    "message": "More"
+  },
+  "back": {
+    "message": "Back"
+  },
+  "allLanguages": {
+    "message": "All languages"
+  },
+  "searchLanguages": {
+    "message": "Search languages"
+  },
+  "noResults": {
+    "message": "No languages found."
+  },
+  "persistent": {
+    "message": "Persistent"
+  },
+  "persistentHint": {
+    "message": "Save the next selection as the default for future Maps visits."
+  },
+  "temporaryHint": {
+    "message": "Only this tab, until it closes or Chrome restarts."
+  },
+  "settings": {
+    "message": "Settings"
+  },
+  "settingsTitle": {
+    "message": "Your lang for google map — Settings"
+  },
+  "useDefault": {
+    "message": "Use default"
+  },
+  "notMaps": {
+    "message": "Open Google Maps to change this tab’s language."
+  },
+  "openMaps": {
+    "message": "Open Google Maps"
+  },
+  "currentTemporary": {
+    "message": "This tab: $1"
+  },
+  "currentDefault": {
+    "message": "Default: $1"
+  },
+  "applied": {
+    "message": "Language applied to this tab."
+  },
+  "savedDefault": {
+    "message": "Default saved and applied to this tab."
+  },
+  "applyError": {
+    "message": "Could not apply the language. Check that this tab is still on Google Maps and try again."
+  },
+  "loadError": {
+    "message": "Could not load settings. Reload the extension and try again."
+  },
+  "settingsIntro": {
+    "message": "Make Maps feel familiar. Choose your default language and the shortcuts in your menu."
+  },
+  "defaultLanguage": {
+    "message": "Default language"
+  },
+  "defaultHint": {
+    "message": "Used when Maps loads, unless that tab has a temporary selection. Open tabs update on their next page load."
+  },
+  "shortcutsHint": {
+    "message": "Choose up to 6 languages, in menu order. Choose “None” to leave a slot empty. All languages remain available under More."
+  },
+  "shortcutSlot": {
+    "message": "Shortcut $1"
+  },
+  "none": {
+    "message": "None"
+  },
+  "saveSettings": {
+    "message": "Save settings"
+  },
+  "settingsSaved": {
+    "message": "Settings saved."
+  },
+  "saveError": {
+    "message": "Could not save settings. Please try again."
+  },
+  "interfaceLanguageHint": {
+    "message": "This interface follows Chrome’s display language, independently of your Maps selection. Unsupported interface languages use English."
+  },
+  "privacyPolicy": {
+    "message": "Privacy policy"
+  },
+  "support": {
+    "message": "Support"
+  }
+}

@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Store artwork layout</title>
+  <script type="module" src="artwork-layout.js"></script>
+  <style>
+    * { box-sizing: border-box; }
+    body { margin: 0; background: #fff8f3; color: #29211c; font-family: system-ui, sans-serif; }
+    .layout { width: 1280px; height: 800px; padding: 48px 64px; position: relative; overflow: hidden; }
+    .brand { display: flex; gap: 16px; align-items: center; }
+    .brand img { width: 64px; height: 64px; border-radius: 12px; }
+    .brand strong { font-size: 24px; font-weight: 650; }
+    .brand p { margin: 5px 0 0; color: #795b47; font-size: 15px; }
+    .copy { margin-top: 95px; max-width: 570px; }
+    h1 { font-size: 58px; line-height: 1.1; letter-spacing: -2px; font-weight: 650; margin: 0 0 26px; }
+    .copy p { font-size: 22px; line-height: 1.55; max-width: 485px; color: #6e594b; }
+    .feature { display: flex; gap: 16px; align-items: center; font-size: 18px; margin-top: 25px; }
+    .dot { width: 8px; height: 8px; border-radius: 50%; background: #c58d6f; }
+    iframe { position: absolute; right: 100px; top: 120px; width: 360px; height: 600px; border: none; background: white; border-radius: 12px; box-shadow: 0 18px 60px #75513922; }
+    .fine { position: absolute; left: 64px; bottom: 52px; color: #866e5e; font-size: 13px; }
+    .promo { width: 440px; height: 280px; display: none; align-items: center; justify-content: center; background: #fff8f3; position: relative; }
+    .promo img { width: 204px; height: 204px; position: relative; z-index: 1; }
+    .promo::before { content: ''; position: absolute; inset: 0 auto 0 0; width: 36px; background: #c58d6f; }
+    .promo::after { content: ''; position: absolute; inset: 0 0 0 auto; width: 36px; background: #c58d6f; }
+    body[data-mode="promo"] .layout { display: none; }
+    body[data-mode="promo"] .promo { display: flex; }
+  </style>
+</head>
+<body>
+  <div class="layout">
+    <header class="brand"><img src="artwork/icon-master.png" alt=""><div><strong>Your lang for google map</strong><p>Stringon Inc.</p></div></header>
+    <section class="copy">
+      <h1 id="headline">Maps, in<br>your language.</h1>
+      <p id="description">Choose a language for one tab.<br>Or save it for your next visit.</p>
+      <div class="feature"><span class="dot"></span><span id="feature-one">Six shortcuts, in your preferred order</span></div>
+      <div class="feature"><span class="dot"></span><span id="feature-two">Chrome's display language stays the same</span></div>
+    </section>
+    <iframe id="menu" src="../popup.html" title="Extension language menu"></iframe>
+    <p class="fine">Independent extension. Not affiliated with or endorsed by Google.</p>
+  </div>
+  <div class="promo"><img src="artwork/icon-master.png" alt="Cursive L extension icon"></div>
+</body>
+</html>
